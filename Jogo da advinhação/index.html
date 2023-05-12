@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da advinhação</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="screen1 ">
+
+            <div class="mainText">
+                <h1>Jogo da advinhação</h1>
+                <p>advinhe o nomero entre 0 e 10</p>
+            </div>
+    
+            <form>
+                <input id="button1" type="text">
+                <button id="buttonTry">tentar</button>
+            </form>
+        </div>
+        <div class="screen2 hide">
+            <h2>Acertou em n tentavias</h1>
+                <button id="buttonReset">Jogar novamente</button>
+            </div>
+        </main>
+        <p id="hiddenP">ERRROU TENTE NOVAMENTE</p>
+        <script src="/main.js"></script>
+</body>
+</html>
